@@ -1,0 +1,5 @@
+FROM service-b
+
+FROM alpine
+
+COPY --from=service-b dev-env /dev-env/

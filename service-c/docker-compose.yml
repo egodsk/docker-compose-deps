@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  service-b:
+    image: "service-b"
+    ports:
+      - "8082:80"
